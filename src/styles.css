@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+
+  --primary: #0A2947;
+  --primary-light: #163B60;
+  --primary-lighter: #244D77;
+  --primary-dark: #061C32;
+  --primary-accent: #ffffff;
+
+  --accent: #8B5E3C;
+  --accent-light: #A67853;
+  --accent-soft: #C7A482;
+  --accent-dark: #6B4427;
+
+  --background: #FAF8F2;
+  --background-alt: #F3E4C9;
+
+  --surface: #FFFFFF;
+  --surface-alt: #F7F4EC;
+  --surface-hover: #F0ECE3;
+
+  --sage: #D3D4C0;
+  --sage-light: #E4E5DA;
+  --sage-dark: #B9BBA6;
+
+  --text-primary: #0A2947;
+  --text-secondary: #334155;
+  --text-tertiary: #64748B;
+  --text-muted: #94A3B8;
+
+  --text-on-dark: #FFFFFF;
+
+  --border: #E5E7EB;
+
+  --shadow-sm: 0 4px 12px rgba(10,41,71,.06);
+  --shadow-md: 0 12px 30px rgba(10,41,71,.10);
+  --shadow-lg: 0 24px 60px rgba(10,41,71,.15);
+
+  --gradient-hero: linear-gradient(135deg,#FAF8F2 0%,#F3E4C9 100%);
+  --gradient-accent: linear-gradient(135deg,#8B5E3C 0%,#C7A482 100%);
+  --gradient-primary: linear-gradient(180deg,#f8fcff 0% , #c6e3ff 30%, #78bbff 65%, #18528d 85%, #001f3d 100%);
+  --gradient-navbar: linear-gradient(180deg, #ffffff4d 0%, #163b604b 100%);
+
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+
+  --font-primary: 'Manrope', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
