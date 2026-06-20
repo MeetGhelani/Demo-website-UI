@@ -1,6 +1,6 @@
 <div class="home-page">
 
-    <div class="navbar" [class.scrolled]="isScrolled">
+    <!-- <div class="navbar" [class.scrolled]="isScrolled">
 
         <div class="logo">AERO</div>
 
@@ -16,10 +16,10 @@
                 </a>
 
                 <div class="dropdown-menu">
-                    <a href="#web-development">Web Development</a>
-                    <a href="#mobile-apps">Mobile Apps</a>
-                    <a href="#ui-ux">UI/UX Design</a>
-                    <a href="#consulting">Consulting</a>
+                    <a routerLink="/services/web-development">Web Development</a>
+                    <a routerLink="/services/mobile-apps">Mobile Apps</a>
+                    <a routerLink="/services/ui-ux">UI/UX Design</a>
+                    <a routerLink="/services/consulting">Consulting</a>
                 </div>
 
             </div>
@@ -32,7 +32,7 @@
             <button class="login-btn">Login</button>
         </div>
 
-    </div>
+    </div> -->
 
     <div class="content">
 
@@ -95,12 +95,6 @@
 
             </div>
 
-        </div>
-
-        <div class="scroll-to-top" [class.scrolled]="isScrolled">
-            <button (click)="scrollToTop()" title="Scroll to Top">
-                <img src="assets/scroll-to-top.png" alt="Scroll to Top">
-            </button>
         </div>
 
         <div id="about" class="about-section">

@@ -9,13 +9,17 @@ html{
   scroll-behavior:smooth;
 }
 
+.home-page::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 .home-page{
   min-height:100dvh;
 
 }
 
 /* NAVBAR */
-
+/*
 .navbar{
   position:fixed;
   top:1rem;
@@ -28,15 +32,12 @@ html{
 
   padding:0.4rem 4rem;
   background: transparent;
-  /*background: var(--gradient-navbar);
-  backdrop-filter:blur(20px);*/
   border-radius: 1000px;
 }
 
 .navbar.scrolled {
 
     background: var(--gradient-navbar);
-    /*background: rgba(0, 28, 80, 0.13);*/
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 
@@ -111,7 +112,7 @@ html{
 
   min-width: 240px;
 
-  background: var(--gradient-navbar);
+  background: var(--gradient-dropdown);
   border: 1px solid var(--primary-light);
   backdrop-filter: blur(20px);
   --webkit-backdrop-filter: blur(20px);
@@ -188,7 +189,7 @@ html{
 .login-btn:hover{
   background:var(--primary-light);
   transform:translateY(-2px);
-}
+}*/
 
 
 
@@ -454,40 +455,7 @@ html{
   color:white;
 }
 
-.scroll-to-top{
-  position:fixed;
-  bottom:3rem;
-  right:3rem;
-  z-index:1000;
 
-  opacity:0;
-  visibility:hidden;
-  transition:opacity .3s ease, visibility .3s ease;
-}
-
-.scroll-to-top.scrolled{
-  opacity:1;
-  visibility:visible;
-}
-
-.scroll-to-top button{
-  width:50px;
-  height:50px;
-  background:var(--primary);
-  border:none;
-  border-radius:999px;
-  color: var(--surface);
-  font-style: bold;
-  box-shadow:var(--shadow-light);
-  cursor:pointer;
-  padding:0.5rem;
-}
-
-.scroll-to-top img{
-  filter: invert(100%);
-  width: 100%;
-  height: 100%;
-}
 
 /* COMMON SECTIONS */
 

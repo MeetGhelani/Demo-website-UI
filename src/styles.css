@@ -49,6 +49,7 @@
   --gradient-contact-bg: linear-gradient(135deg, #82a3c277 0%, #78bcff59 50%, #093c6370 100%);
   --gradient-navbar: linear-gradient(180deg, #ffffff4d 0%, #163b604b 100%);
   --gradient-surface: linear-gradient(0deg,#ffffff00 0% , #5581aa2c 50%, #093c63b6 100%);
+  --gradient-dropdown:linear-gradient(180deg, #ffffff 0%, #9ab6d3 100%);
 
   --radius-sm: 12px;
   --radius-md: 18px;
@@ -72,4 +73,24 @@
 @font-face {
   font-family: 'Logofont2';
   src: url('/fonts/Hellion.ttf') format('truetype');
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
 }

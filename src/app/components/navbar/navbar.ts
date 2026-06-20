@@ -2,16 +2,15 @@ import { Component, HostListener } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-home-page',
+  selector: 'app-navbar',
   imports: [RouterLink],
-  templateUrl: './home-page.html',
-  styleUrl: './home-page.css',
+  templateUrl: './navbar.html',
+  styleUrl: './navbar.css',
 })
-export class HomePage {
+export class Navbar {
+    isScrolled = false;
 
-  isScrolled = false;
-
-  @HostListener('window:scroll', [])
+    @HostListener('window:scroll', [])
   onWindowScroll(): void {
     this.isScrolled = window.scrollY > 50;
   }
