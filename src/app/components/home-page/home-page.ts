@@ -14,4 +14,8 @@ export class HomePage {
   onWindowScroll(): void {
     this.isScrolled = window.scrollY > 50;
   }
+
+  scrollToTop(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }

@@ -93,10 +93,14 @@
                         <div class="card-subtitle">Trusted Worldwide</div>
                     </div>
 
-
-
             </div>
 
+        </div>
+
+        <div class="scroll-to-top" [class.scrolled]="isScrolled">
+            <button (click)="scrollToTop()" title="Scroll to Top">
+                <img src="assets/scroll-to-top.png" alt="Scroll to Top">
+            </button>
         </div>
 
         <div id="about" class="about-section">
