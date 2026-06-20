@@ -1,6 +1,6 @@
 <div class="home-page">
 
-    <div class="navbar">
+    <div class="navbar" [class.scrolled]="isScrolled">
 
         <div class="logo">AERO</div>
 
@@ -27,7 +27,7 @@
 
                 <div class="heading">
                     Build <span class="highlight">Smarter.</span> Grow <span class="highlight">Faster.</span>
-                    <span class="sub-heading">We help businesses streamline operations, improve customer experiences, and accelerate growth through innovative digital solutions.</span>
+                    <span class="sub-heading">We help businesses streamline operations, <br> improve customer experiences, and accelerate <br> growth through innovative digital solutions.</span>
                 </div>
 
                 <div class="button-container">
@@ -38,7 +38,48 @@
             </div>
 
             <div class="right-section">
-                <img src="assets/hero-img.png" alt="Hero Image" class="hero-image">
+
+                    <!-- Top Left -->
+                    <div class="glass-card growth-card">
+                        <div class="card-icon">📈</div>
+                        <div class="card-value">+24.5%</div>
+                        <div class="card-title">Growth Rate</div>
+                        <div class="card-subtitle">Higher than last quarter</div>
+                    </div>
+
+                    <!-- Top Right -->
+                    <div class="glass-card ai-card">
+                        <div class="card-icon">✨</div>
+                        <div class="card-title">AI Powered</div>
+                        <div class="card-subtitle">
+                            Automated workflows<br>
+                            Real-time insights
+                        </div>
+                    </div>
+
+                    <!-- Hero Image -->
+                    <img
+                        src="assets/hero-img-3.png"
+                        alt="Dashboard"
+                        class="hero-image">
+
+                    <!-- Bottom Left -->
+                    <div class="glass-card uptime-card">
+                        <div class="card-icon">🛡️</div>
+                        <div class="card-value">99.9%</div>
+                        <div class="card-title">System Uptime</div>
+                    </div>
+
+                    <!-- Bottom Right -->
+                    <div class="glass-card clients-card">
+                        <div class="card-icon">👥</div>
+                        <div class="card-value">500+</div>
+                        <div class="card-title">Global Clients</div>
+                        <div class="card-subtitle">Trusted Worldwide</div>
+                    </div>
+
+
+
             </div>
 
         </div>
@@ -92,23 +133,57 @@
 
         <div id="contact" class="contact-section">
 
-            <div class="contact-heading">Contact Us</div>
+            <div class="glass-contact-card">
 
-            <div class="contact-content">
-                Have questions or want to learn more? Get in touch with us!
+                <div class="contact-heading">Contact Us</div>
+
+                <div class="contact-content">
+                    Have questions or want to learn more? Get in touch with us!
+                </div>
+
+                <div class="contact-form">
+                    <input type="text" placeholder="Your Name" class="contact-input">
+                    <input type="email" placeholder="Your Email" class="contact-input">
+                    <textarea placeholder="Your Message" class="contact-textarea"></textarea>
+                    <button class="send-btn">Send Message</button>
+                </div>
+
             </div>
 
-            <div class="contact-form">
-                <input type="text" placeholder="Your Name" class="contact-input">
-                <input type="email" placeholder="Your Email" class="contact-input">
-                <textarea placeholder="Your Message" class="contact-textarea"></textarea>
-                <button class="send-btn">Send Message</button>
+            <div class="contact-image">
+                <img src="assets/contact-form-img.png" alt="Contact Us" class="contact-image">
             </div>
 
         </div>
     </div>
 
     <div class="footer">
+
+            <div class="contact-info">
+
+                <div class="contact-item">
+
+                    <div class="footer-logo">AERO</div>
+
+                    <div class="contact-text">123 Main Street, Anytown, USA <br> +1 (555) 123-4567 <br>contact@abcsolutions.com</div>
+
+                    <div class="social-icons">
+                        <a href="#"><img src="assets/facebook-icon.png" alt="Facebook"></a>
+                        <a href="#"><img src="assets/twitter-icon.png" alt="Twitter"></a>
+                        <a href="#"><img src="assets/linkedin-icon.png" alt="LinkedIn"></a>
+                    </div>
+
+                </div>
+
+                <div class="contact-item">
+                    <div class="footer-heading">Quick Links</div>
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#services" class="footer-link">Services</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+                
+            </div>
 
         <div class="footer-content">
             &copy; 2026 ABC Solutions. All rights reserved.

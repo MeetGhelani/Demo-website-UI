@@ -7,7 +7,7 @@
   --primary-light: #163B60;
   --primary-lighter: #244D77;
   --primary-dark: #061C32;
-  --primary-accent: #ffffff;
+  --primary-soft: #e3f1ff;
 
   --accent: #8B5E3C;
   --accent-light: #A67853;
@@ -33,19 +33,26 @@
   --text-on-dark: #FFFFFF;
 
   --border: #E5E7EB;
+  --border-bottom: #ffffff8a;
 
   --shadow-sm: 0 4px 12px rgba(10,41,71,.06);
   --shadow-md: 0 12px 30px rgba(10,41,71,.10);
   --shadow-lg: 0 24px 60px rgba(10,41,71,.15);
+  --shadow-light: 0 4px 12px rgba(0, 38, 95, 0.589);
 
   --gradient-hero: linear-gradient(135deg,#FAF8F2 0%,#F3E4C9 100%);
   --gradient-accent: linear-gradient(135deg,#8B5E3C 0%,#C7A482 100%);
-  --gradient-primary: linear-gradient(180deg,#f8fcff 0% , #c6e3ff 30%, #78bbff 65%, #18528d 85%, #001f3d 100%);
+  --gradient-primary-dtu: linear-gradient(180deg,#f8fcff 0% , #c6e3ff 30%, #78bbff 65%, #18528d 85%, #001f3d 100%);
+  --gradient-primary-utd: linear-gradient(0deg,#f8fcff 0% , #c6e3ff 30%, #78bbff 65%, #18528d 85%, #001f3d 100%);
+  --gradient-primary-ltr: linear-gradient(270deg,#f8fcff 0% , #c6e3ffa6 30%, #78bcffb9 100%);
+  --gradient-primary-rtl: linear-gradient(90deg,#f8fcff 0% , #c6e3ffa6 30%, #78bcffb9 100%);
+  --gradient-contact-bg: linear-gradient(135deg, #82a3c277 0%, #78bcff59 50%, #093c6370 100%);
   --gradient-navbar: linear-gradient(180deg, #ffffff4d 0%, #163b604b 100%);
+  --gradient-surface: linear-gradient(0deg,#ffffff00 0% , #5581aa2c 50%, #093c63b6 100%);
 
   --radius-sm: 12px;
   --radius-md: 18px;
-  --radius-lg: 24px;
+  --radius-lg: 24px;  
 
   --font-primary: 'Manrope', sans-serif;
   --font-secondary: 'Inter', sans-serif;
@@ -55,4 +62,14 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+}
+
+@font-face{
+    font-family: 'LogoFont';
+    src: url('/fonts/AstralyzDemo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Logofont2';
+  src: url('/fonts/Hellion.ttf') format('truetype');
 }
