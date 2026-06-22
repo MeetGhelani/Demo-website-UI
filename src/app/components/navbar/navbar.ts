@@ -10,7 +10,7 @@ import { RouterLink } from '@angular/router';
 export class Navbar {
     isScrolled = false;
 
-    @HostListener('window:scroll', [])
+  @HostListener('window:scroll', [])
   onWindowScroll(): void {
     this.isScrolled = window.scrollY > 50;
   }

@@ -39,6 +39,7 @@
   --shadow-md: 0 12px 30px rgba(10,41,71,.10);
   --shadow-lg: 0 24px 60px rgba(10,41,71,.15);
   --shadow-light: 0 4px 12px rgba(0, 38, 95, 0.589);
+  --shadow-dark: 0 5px 20px rgba(0, 38, 95, 0.432);
 
   --gradient-hero: linear-gradient(135deg,#FAF8F2 0%,#F3E4C9 100%);
   --gradient-accent: linear-gradient(135deg,#8B5E3C 0%,#C7A482 100%);
@@ -77,20 +78,5 @@
 
 
 ::-webkit-scrollbar {
-  width: 8px;
-  background: transparent;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent !important;
-  box-shadow: none !important;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--primary);
-  border-radius: 100px;
-}
-
-::-webkit-scrollbar-corner {
-  background: transparent;
+  display: none;
 }
