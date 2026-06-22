@@ -181,6 +181,8 @@
     }
 }
 
+/* What We Build Section */
+
 .what-we-build{
     display:flex;
     flex-direction: column;

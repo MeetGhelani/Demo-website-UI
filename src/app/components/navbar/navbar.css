@@ -157,15 +157,6 @@ html{
   color: var(--surface);
 }
 
-.dropdown::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100%;
-  height: 20px;
-}
-
 .submenu {
   position: relative;
 }
