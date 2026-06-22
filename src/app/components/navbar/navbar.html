@@ -14,10 +14,42 @@
                 </a>
 
                 <div class="dropdown-menu">
-                    <a routerLink="/services/web-development">Web Development</a>
-                    <a routerLink="/services/mobile-apps">Mobile Apps</a>
-                    <a routerLink="/services/ui-ux">UI/UX Design</a>
-                    <a routerLink="/services/consulting">Consulting</a>
+                    <div class="submenu has-submenu">
+                        <a routerLink="/services/web-development">Web Development</a>
+                        <div class="submenu-dropdown">
+                            <a routerLink="/services/web-development/frontend">Frontend</a>
+                            <a routerLink="/services/web-development/backend">Backend</a>
+                            <a routerLink="/services/web-development/fullstack">Full Stack</a>
+                        </div>
+                    </div>
+
+                    <div class="submenu has-submenu">
+                        <a routerLink="/services/mobile-apps">Mobile Apps</a>
+                        <div class="submenu-dropdown">
+                            <a routerLink="/services/mobile-apps/ios">iOS</a>
+                            <a routerLink="/services/mobile-apps/android">Android</a>
+                            <a routerLink="/services/mobile-apps/cross-platform">Cross-Platform</a>
+                        </div>
+                    </div>
+
+                    <div class="submenu has-submenu">
+                        <a routerLink="/services/ui-ux">UI/UX Design</a>
+                        <div class="submenu-dropdown">
+                            <a routerLink="/services/ui-ux/web-design">Web Design</a>
+                            <a routerLink="/services/ui-ux/mobile-design">Mobile Design</a>
+                            <a routerLink="/services/ui-ux/branding">Branding</a>
+                        </div>
+                    </div>
+
+                    <div class="submenu has-submenu">
+                        <a routerLink="/services/consulting">Consulting</a>
+                        <div class="submenu-dropdown">
+                            <a routerLink="/services/consulting/it-strategy">IT Strategy</a>
+                            <a routerLink="/services/consulting/cloud-solutions">Cloud Solutions</a>
+                            <a routerLink="/services/consulting/cybersecurity">Cybersecurity</a>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>

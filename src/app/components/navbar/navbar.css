@@ -90,7 +90,6 @@ html{
   transform: scaleX(1);
 }
 
-.nav-links > a:hover::after,
 .dropdown:hover .dropdown-trigger::after {
   transform: scaleX(1);
 }
@@ -165,6 +164,64 @@ html{
   right: 0;
   top: 100%;
   height: 20px;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu-dropdown {
+  position: absolute;
+  top: 0;
+  left: 100%;
+
+  transform: translateX(10px);
+
+  min-width: 200px;
+
+  background: var(--gradient-dropdown);
+  border: 1px solid var(--primary-light);
+  backdrop-filter: blur(20px);
+  --webkit-backdrop-filter: blur(20px);
+  border-radius: 18px;
+
+  box-shadow:
+    0 20px 40px rgba(0,0,0,.12);
+
+  padding: 0.75rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition:
+    opacity .25s ease,
+    transform .25s ease,
+    visibility .25s ease;
+
+}
+
+.submenu-dropdown a {
+  display: block;
+
+  padding: 0.85rem 1rem;
+
+  text-decoration: none;
+  color: var(--primary-dark);
+
+  border-radius: 12px;
+
+  transition: all .25s ease;
+}
+
+.submenu:hover .submenu-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.has-submenu:hover > a {
+  background: var(--primary-lighter);
+  color: var(--surface);
 }
 
 .login-btn{

@@ -8,6 +8,7 @@
   --primary-lighter: #244D77;
   --primary-dark: #061C32;
   --primary-soft: #e3f1ff;
+  --primary-sky: #78bbff;
 
   --accent: #8B5E3C;
   --accent-light: #A67853;
@@ -51,6 +52,8 @@
   --gradient-navbar: linear-gradient(180deg, #ffffff4d 0%, #163b604b 100%);
   --gradient-surface: linear-gradient(0deg,#ffffff00 0% , #5581aa2c 50%, #093c63b6 100%);
   --gradient-dropdown:linear-gradient(180deg, #ffffff 0%, #9ab6d3 100%);
+  --radial-highlight: radial-gradient(circle at center,#b2c8d856 0% , #97b2cc 30%, #78bbff 65%, #18528d 85%, #001f3d 100%);
+  --gradient-glass-cards: linear-gradient(180deg, #beccf362 0% , #8a9ed65d 50%, #3245796c 100%);
 
   --radius-sm: 12px;
   --radius-md: 18px;
