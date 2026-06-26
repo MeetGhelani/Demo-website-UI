@@ -1,0 +1,1 @@
+import{Ca as o,Da as s,Ha as i,sa as e}from"./chunk-D7T5GF3H.js";var a=class t{static \u0275fac=function(n){return new(n||t)};static \u0275cmp=e({type:t,selectors:[["app-consulting"]],decls:2,vars:0,template:function(n,l){n&1&&(o(0,"p"),i(1,"consulting works!"),s())},encapsulation:2})};export{a as Consulting};
